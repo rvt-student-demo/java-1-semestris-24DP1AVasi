@@ -11,7 +11,7 @@ public class App {
         System.out.print("Ievadi cenu: ");
         double cena = Double.valueOf(scan.nextLine());
         System.out.print("Ekspress piegāse (0=nē, 1=jā): ");
-        int pieg = Integer.valueOf(scan.nextLine());
+        double pieg = Double.valueOf(scan.nextLine());
 
         if (pieg == 1) {
             pieg = 3;
