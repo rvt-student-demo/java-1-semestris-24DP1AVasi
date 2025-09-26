@@ -6,15 +6,19 @@ public class App {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Ievadi skaitli:");
-        int num = Integer.valueOf(scan.nextLine());
-        int sum = num;
-        while (num != 4) {
-            System.out.println("Ievadi skaitli:");
-            num = Integer.valueOf(scan.nextLine());
-            sum += num;
+        for(int i = -100; i <= 100; i++) {
+            System.out.print(i);
         }
-        System.out.println("Tava summa ir " + sum);
+
+        // System.out.println("Ievadi skaitli:");
+        // int num = Integer.valueOf(scan.nextLine());
+        // int sum = num;
+        // while (num != 4) {
+        //     System.out.println("Ievadi skaitli:");
+        //     num = Integer.valueOf(scan.nextLine());
+        //     sum += num;
+        // }
+        // System.out.println("Tava summa ir " + sum);
         
         // System.out.print("Ievadi preci: ");
         // String prece = String.valueOf(scan.nextLine());
