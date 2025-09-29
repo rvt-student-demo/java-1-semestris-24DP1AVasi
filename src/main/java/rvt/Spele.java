@@ -16,8 +16,7 @@ public class Spele {
             System.out.println("Nepareizi");
         }
         else {
-            System.out.println("Pareizi\nTu uzvarēji")
-            break;
+            System.out.println("Pareizi\nTu uzvarēji");
         }
     }
 }
