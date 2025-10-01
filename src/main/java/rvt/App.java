@@ -6,9 +6,16 @@ public class App {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        for(int i = -100; i <= 100; i++) {
-            System.out.print(i);
-        }
+        int start = Integer.valueOf(scan.nextLine());
+        int end = Integer.valueOf(scan.nextLine());
+
+        divisibleByThreeInRange(start, end);
+
+        
+
+        // for(int i = -100; i <= 100; i++) {
+        //     System.out.print(i);
+        // }
 
         // System.out.println("Ievadi skaitli:");
         // int num = Integer.valueOf(scan.nextLine());
@@ -60,4 +67,12 @@ public class App {
 
         scan.close();   
     }
+    public static void divisibleByThreeInRange(int start, int end) {
+            for (int i = start; i < end; i++) {
+                if (i % 3 == 0) {
+                    System.out.println(i);
+                }
+            }
+
+        }
 }
