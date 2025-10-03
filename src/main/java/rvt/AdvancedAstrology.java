@@ -30,10 +30,10 @@ public class AdvancedAstrology {
             for (int j = size - minus; j > 0 ; j--) {
                 space();
             }
-            for (int k = size - minus; k < size; k++) {
+            for (int k = 1 - minus; k < 1; k++) {
                 star();
             }
-            for (int k = size - minus + 1; k < size; k++) {
+            for (int k = 2 - minus; k < 1; k++) {
                 star();
             }
             minus += 1;
