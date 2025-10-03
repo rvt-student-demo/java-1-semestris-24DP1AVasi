@@ -4,7 +4,7 @@ package rvt;
 import java.util.Scanner;
 public class PYinput {
     
-    // String
+    // String input
     public static String InStr(String text) {
          Scanner scan = new Scanner(System.in);
         System.out.print(text);
@@ -13,7 +13,7 @@ public class PYinput {
         return str;
     }
 
-    // Integer
+    // Integer input
     public static int InInt(String text) {
          Scanner scan = new Scanner(System.in);
         System.out.print(text);
@@ -22,7 +22,7 @@ public class PYinput {
         return Int;
     }
 
-    // Double
+    // Double input
     public static Double InDou(String text) {
          Scanner scan = new Scanner(System.in);
         System.out.print(text);
