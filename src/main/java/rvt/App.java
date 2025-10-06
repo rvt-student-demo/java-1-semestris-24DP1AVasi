@@ -1,13 +1,13 @@
 package rvt;
 import java.util.Scanner;
-
+import rvt.PYinput;
 
 public class App {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int start = Integer.valueOf(scan.nextLine());
-        int end = Integer.valueOf(scan.nextLine());
+        int start = PYinput.InInt("Ievadi sākuma skaitli: ");
+        int end = PYinput.InInt("Ievadi beigu skaitli: ");
 
         divisibleByThreeInRange(start, end);
 
