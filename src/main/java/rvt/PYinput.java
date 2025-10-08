@@ -26,5 +26,6 @@ public class PYinput {
         System.out.print(text);
         Double dou = Double.valueOf(scan.nextLine());
         return dou;
+
     }
 }
