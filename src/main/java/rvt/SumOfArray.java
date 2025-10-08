@@ -8,14 +8,13 @@ public class SumOfArray {
         for (int i = 0; i < 5; i++) {
             array[i] = PYinput.InInt("Ievadi "+(i  + 1)+" skaitli: ");
         }
-        SumArray(array);
+        System.out.println("Summa ir " + SumArray(array));
     }
     public static int SumArray(int[] array) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
-        System.out.println("Summa ir " + sum);
         return sum;
     }
 }
