@@ -6,21 +6,18 @@ public class PYinput {
     
     // String input
     public static String InStr(String text) {
-        try (Scanner scan = new Scanner(System.in)) {
-            System.out.print(text);
-            String str = scan.nextLine();
-            return str;
-        }
+        Scanner scan = new Scanner(System.in);
+        System.out.print(text);
+        String str = scan.nextLine();
+        return str;
     }
 
     // Integer input
-    
-    public static Integer InInt(String text) {
+    public static int InInt(String text) {
         Scanner scan = new Scanner(System.in);
         System.out.print(text);
-        Integer integer = Integer.valueOf(scan.nextLine());
-        return integer;
-
+        int Int = Integer.valueOf(scan.nextLine());
+        return Int;
     }
 
     // Double input
