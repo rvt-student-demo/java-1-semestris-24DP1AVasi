@@ -9,7 +9,12 @@ public class OnlyTheseNumbers {
         while (true) {
             int user = PYinput.InInt("");
             if (user != -1) {
-                list.add(user);
+                int[] newList = new int[list.length + 1];
+                System.arraycopy(list, 0, newList, 0, list.length);
+                newList[newList.length - 1] = user;
+                list = newList;
+            } else {
+                break;
             }
         }
     }
